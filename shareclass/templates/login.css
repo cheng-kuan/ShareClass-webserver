@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F0F0; }
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+.all {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F0F0; }
+
+.first-top-navbar > #first-top-id {
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+
+.navbar-default .navbar-brand {
+  color: #333366; }
+
+.first-top-navbar {
+  width: 100%; }
+  .first-top-navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: bold; }
+
+.revise-box > .form-control {
+  border-radius: 18px;
+  padding: 3px 3px 3px 28px;
+  background: #fff url("search.gif") no-repeat 8px 8px; }
+
+.revise-box > .form-control:focus {
+  border: 1px solid #6363B0;
+  outline: 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
+
+.second-word-style #active a {
+  color: black;
+  background-color: white;
+  border-bottom: 2px solid #333366;
+  font-weight: bold; }
+.second-word-style a {
+  font-size: 15.2px; }
+
+.all > .first-top-navbar {
+  position: relative; }
+
+.login {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: white;
+  height: auto;
+  width: 35%;
+  border: 1px solid #d9d9ec; }
+
+.form-title {
+  /*
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+  */
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 10px; }
+
+/*
+.forom-content{
+  padding-left: (100% - ($login-form-width))/2;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+} */
+h1 {
+  font-size: 25px; }
+
+.login-box > .form-control {
+  width: 100%; }
+
+.login-box > .form-control:focus {
+  border: 1px solid #6363B0;
+  outline: 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
+
+.button-submit-style > #button {
+  width: 100%;
+  background-color: #2c2c58;
+  color: white;
+  font-weight: bold;
+  font-size: 15px; }
+
+.other-sign-in {
+  margin-top: 5px;
+  height: 50px;
+  width: 100%; }
+  .other-sign-in p {
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+
+.button-other-style {
+  display: table;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 780px) {
+  .login {
+    width: 80%; } }
+
+/*# sourceMappingURL=login.css.map */

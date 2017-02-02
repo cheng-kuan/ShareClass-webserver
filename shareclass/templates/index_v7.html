@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>junyi_version7</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link href="index_v7.css" rel="stylesheet" type="text/css" /> 
+<!-- <link rel="stylesheet" href="css/bootstrap.css">  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+<!--  <script src="index_v7.js"></script>  -->
+</head>
+<body>
+  <div class="all">
+    <div class="first-top-navbar">
+      <nav id="first-top-id" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> 
+            <a class="navbar-brand" href="index_v7.html">JUNYI</a>
+          </div>
+          <div class="collapse navbar-collapse myNavbar">
+            <div class="second-word-style">
+              <ul class="nav navbar-nav">
+                <li id="active" class="active"><a href="#">首頁</a></li>
+                <li class="normal"><a href="#">講義下載</a></li>
+                <li class="normal"><a href="#">討論區</a></li> 
+                <li class="normal"><a href="#">教師資源</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="normal"><a href="login.html">登入</a></li>
+                <li class="normal"><a href="sign_up.html">註冊</a></li>
+              </ul> 
+              <form class="nav navbar-form navbar-right" role="search">
+                  <div class="revise-box">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="content">
+      <div class="open-sidebar" id="myHidebar">
+        <i id="open-icon" class="icon-set fa fa-angle-right" aria-hidden="true" onclick="openNav()"></i>
+        <p>科目教材</p>
+      </div>
+      <div class="side-bar" id="mySidebar">
+        <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+            <div class="sidebar-offcanvas" id="sidebar" role="navigation">
+              <ul class="self-nav">
+                <li class="side-title">科目教材
+                  <i id="hide-icon" class="fa fa-angle-left" aria-hidden="true"
+                onclick="closeNav()"></i>
+                </li>    
+                <li class="side-subtitle">國文</li>
+                <li class="side-detail"><a href="#">唐詩三百首</a></li>
+                <li class="side-detail"><a href="#">現代詩選</a></li>
+                <li class="side-detail"><a href="#">認識英文字母</a></li>
+                <li class="side-subtitle">英文</li>
+                <li class="side-detail"><a href="#">認識英文字母</a></li>
+                <li class="side-detail"><a href="#">高中英文文法</a></li>
+                <li class="side-detail"><a href="#">高中英文單字</a></li>
+                <li class="side-subtitle">數學</li>
+                <li class="side-detail"><a href="#">數與量</a></li>
+                <li class="side-detail"><a href="#">空間與形狀</a></li>
+                <li class="side-detail"><a href="#">幾何</a></li> 
+                <li class="side-subtitle">數學</li>
+                <li class="side-detail"><a href="#">數與量</a></li>
+                <li class="side-detail"><a href="#">空間與形狀</a></li>
+                <li class="side-detail"><a href="#">幾何</a></li> 
+                <li class="side-subtitle">數學</li>
+                <li class="side-detail"><a href="#">數與量</a></li>
+                <li class="side-detail"><a href="#">空間與形狀</a></li>
+                <li class="side-detail"><a href="#">幾何</a></li> 
+                <li class="side-subtitle">數學</li>
+                <li class="side-detail"><a href="#">數與量</a></li>
+                <li class="side-detail"><a href="#">空間與形狀</a></li>
+                <li class="side-detail"><a href="#">幾何</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="article" id ="myArticle">
+        <div class="page" id="myPage">
+          <div class="article-topic">
+            <img class="head-pic" src="bear.jpg" alt="head">
+            <h1>TOPIC</h1>
+          </div>
+          <div class="article-content">
+            <p> Article content.</p>
+          </div>
+        </div>
+        <div class="page">
+          <div class="article-topic">
+            <img class="head-pic" src="bear.jpg" alt="head">
+            <h1>TOPIC</h1>
+          </div>
+          <div class="article-content">
+            <p> Article content.</p>
+          </div>
+        </div>
+        <div class="page">
+          <div class="article-topic">
+            <img class="head-pic" src="bear.jpg" alt="head">
+            <h1>TOPIC</h1>
+          </div>
+          <div class="article-content">
+            <p> Article content.</p>
+          </div>
+        </div>
+      </div>
+    </div><!--content-->
+  </div><!--all class-->
+
+  <!-- javascript -->
+  <script src="index_v7.js"></script> 
+
+</body>
+</html>
+
+
+<!--
+form width
+form position
+hover
+-->
